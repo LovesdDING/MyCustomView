@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#fff"
+    tools:context="com.cz10000.mycustomview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn1"
+            style="@style/btnStyle"
+            android:text="--- intentService"
+            />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/btnStyle"
+            android:text="--- handlerThread"
+            />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
